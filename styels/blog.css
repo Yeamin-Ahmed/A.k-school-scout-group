@@ -1,4 +1,80 @@
-      *{
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+     }
+     .bg {
+        
         background-image:url(../pics/IMG_20230526_112851.jpg);
-        background-position: center;
-        background-size: cover;}
+        background-position: center center;
+        background-size: 100%  ; 
+background-repeat: no-repeat;
+height:300vh;
+       background-color: rgb(218, 204, 204);
+     }
+       .menu-bar{
+        display:flex;
+        justify-content:space-around;
+        background-color: #01f9f96f;
+        
+        color: white;
+        padding: 12px;
+    }
+    .menus{
+        display: flex;
+        list-style: none;
+     margin-top: 30px;
+     text-decoration: solid;
+     
+    }
+    .item{
+        margin-right:17px;
+        padding: 5px;
+        font-size: 18px;
+    }
+       .logo{
+        width: 100px; padding: 5px;
+       } 
+       .but{
+        padding: 0px;
+        
+       }
+
+       .footer-container{
+        display: flex;
+        width: 75%;
+        height: 60vh;
+        margin: 0 auto;
+        justify-content: space-around;
+        align-items: center;
+        /* padding: 20px; */
+        border-bottom: 1px solid gray;
+    }
+
+    .logo-box{
+        width: 25%;
+    }
+    .logo-box img{
+        width:170px;
+    }
+    
+    .copy{
+        text-align: center;
+        padding: 15px;
+    }
+    .fa-solid{
+        margin-right: 7px;
+    }
+    .footer-title{
+        margin-bottom: 30px;
+    }
+    .icons{
+        /* text-align: center; */
+        margin-top:20px;
+    }
+    .fa-brands{
+        margin: 10px;
+        font-size:20px;
+    }
+
